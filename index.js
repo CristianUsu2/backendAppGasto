@@ -13,6 +13,7 @@ app.use(Morgan("dev"));
 app.use(Express.json())
 app.use(routeCategoria)
 
+
 app.set("port", process.env.PORT || port);
 const main = async () => {
   try {
